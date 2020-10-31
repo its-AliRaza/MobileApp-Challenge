@@ -56,7 +56,7 @@
             <Setter Property="FontFamily" Value="RobotoMedium"/>
         </Style>
 
-        <Style x:Key="ElabsTitle" TargetType="Label">
+        <Style x:Key="ChallengeTitle" TargetType="Label">
             <Setter Property="TextColor" Value="Black"/>
             <Setter Property="Opacity" Value=".9"/>
             <Setter Property="Margin" Value="15"/>
