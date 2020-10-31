@@ -4,5 +4,134 @@
              x:Class="MobileAppChallenge.App">
     <Application.Resources>
 
+        <Color x:Key="ChallengeGray">#85929E</Color>
+        <Color x:Key="ChallengeDark">#08415C</Color>
+        <Color x:Key="ChallengeLine">#D5DBDB</Color>
+        <Color x:Key="ChallengeRed">#391B2A</Color>
+        <Color x:Key="ChallengeLightRed">#C0392B</Color>
+        <Color x:Key="ChallengeBar">#212D42</Color>
+        <Color x:Key="ChallengeBackground">#F4F6F6</Color>
+        <Color x:Key="ChallengeGreen">#27AE60</Color>
+        <Color x:Key="ChallengeBlue">#2471A3</Color>
+        <Color x:Key="ChallengeOuterBackground">#FFFDFC</Color>
+
+
+
+        <!--Labels-->
+
+        <Style x:Key="SmallDarkRegular" TargetType="Label">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="FontFamily" Value="RobotoRegular"/>
+        </Style>
+
+        <Style x:Key="SmallGrayRegular" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource ChallengeGray}"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="FontFamily" Value="RobotoRegular"/>
+        </Style>
+
+        <Style x:Key="SmallDarkMedium" TargetType="Label">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="FontFamily" Value="RobotoMedium"/>
+        </Style>
+
+        <Style x:Key="SmallGrayMedium" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource ChallengeGray}"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="FontFamily" Value="RobotoMedium"/>
+        </Style>
+
+        <Style x:Key="SmallCenterBottomBarMediumLight" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource ChallengeLine}"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="FontFamily" Value="RobotoMedium"/>
+        </Style>
+
+        <Style x:Key="MediumDarkMedium" TargetType="Label">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="FontFamily" Value="RobotoMedium"/>
+        </Style>
+
+        <Style x:Key="ElabsTitle" TargetType="Label">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="Opacity" Value=".9"/>
+            <Setter Property="Margin" Value="15"/>
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="FontFamily" Value="RobotoMedium"/>
+        </Style>
+
+        <Style x:Key="ElabsErrorLabel" TargetType="Label">
+            <Setter Property="TextColor" Value="{StaticResource ChallengeLightRed}"/>
+            <Setter Property="FontSize" Value="Micro"/>
+            <Setter Property="FontFamily" Value="RobotoRegular"/>
+        </Style>
+
+        <!--Images-->
+
+        <!--StackLayout-->
+
+        <Style x:Key="CompressedZeroSpacingStack" TargetType="StackLayout">
+            <Setter Property="CompressedLayout.IsHeadless" Value="True"/>
+            <Setter Property="Spacing" Value="0"/>
+        </Style>
+
+
+        <!--Grid-->
+
+        <Style x:Key="CompressedZeroSpacingGrid" TargetType="Grid">
+            <Setter Property="CompressedLayout.IsHeadless" Value="True"/>
+            <Setter Property="RowSpacing" Value="0"/>
+        </Style>
+
+        <!--Entry-->
+
+        <Style x:Key="EntryStyle" TargetType="Entry">
+            <Setter Property="PlaceholderColor" Value="{StaticResource ChallengeLine}"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="FontFamily" Value="RobotoRegular"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+
+        <!--Boxview-->
+
+        <Style x:Key="EntryLine" TargetType="BoxView">
+            <Setter Property="Color" Value="{StaticResource ChallengeLine}"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="HeightRequest" Value="1"/>
+            <Setter Property="Margin" Value="0,2,0,0"/>
+        </Style>
+
+        <!--Buttons-->
+
+        <Style x:Key="TransparentButton" TargetType="Button">
+            <Setter Property="Opacity" Value="0"/>
+            <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="HeightRequest" Value="40"/>
+
+        </Style>
+
+        <Style x:Key="ChalllengeButton" TargetType="Button">
+            <Setter Property="FontFamily" Value="RobotoRegular"/>
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource ChallengeBar}"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="Margin" Value="10,0"/>
+        </Style>
+
+        <!--Frame-->
+
+        <Style x:Key="FrameStyle" TargetType="Frame">
+            <Setter Property="HasShadow" Value="False"/>
+            <Setter Property="CornerRadius" Value="3"/>
+            <Setter Property="BackgroundColor" Value="White"/>
+        </Style>
     </Application.Resources>
 </Application>

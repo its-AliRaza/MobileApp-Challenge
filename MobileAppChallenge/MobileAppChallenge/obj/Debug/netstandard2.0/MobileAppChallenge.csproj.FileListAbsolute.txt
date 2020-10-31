@@ -1,0 +1,14 @@
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\bin\Debug\netstandard2.0\MobileAppChallenge.deps.json
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\bin\Debug\netstandard2.0\MobileAppChallenge.dll
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\bin\Debug\netstandard2.0\ref\MobileAppChallenge.dll
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\bin\Debug\netstandard2.0\MobileAppChallenge.pdb
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.csprojAssemblyReference.cache
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Views\StartPage.xaml.g.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.AssemblyInfoInputs.cache
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.AssemblyInfo.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.csproj.CoreCompileInputs.cache
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.dll
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\ref\MobileAppChallenge.dll
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.pdb

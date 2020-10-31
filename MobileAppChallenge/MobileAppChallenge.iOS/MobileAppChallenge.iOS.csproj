@@ -133,4 +133,55 @@
       <Name>MobileAppChallenge</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendar.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dashboard.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\email.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\faceID.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fullname.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\history.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logout.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\more.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\noData.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\password.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pc.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\personalInfo.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rightArrow.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\securityCode.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\setting.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\time.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\touchID.svg" />
+  </ItemGroup>
 </Project>
