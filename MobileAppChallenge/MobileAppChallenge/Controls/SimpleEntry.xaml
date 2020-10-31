@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      x:Class="MobileAppChallenge.Controls.SimpleEntry"
+      Spacing="0"
+      Margin="20,0,20,5">
+    <Frame Grid.Row="0" Grid.Column="1" Padding="0" IsClippedToBounds="True" HasShadow="False" BackgroundColor="{StaticResource ChallengeOuterBackground}">
+        <Entry x:Name="txt" Text="" Margin="-15,-5,-14,-6" Style="{StaticResource EntryStyle}" Visual="Material" BackgroundColor="{StaticResource ChallengeOuterBackground}"/>
+    </Frame>
+    <BoxView Style="{StaticResource EntryLine}"/>
+    <Label x:Name="txtError" Style="{StaticResource ChallengeErrorLabel}" IsVisible="False"/>
+</StackLayout>

@@ -64,7 +64,7 @@
             <Setter Property="FontFamily" Value="RobotoMedium"/>
         </Style>
 
-        <Style x:Key="ElabsErrorLabel" TargetType="Label">
+        <Style x:Key="ChallengeErrorLabel" TargetType="Label">
             <Setter Property="TextColor" Value="{StaticResource ChallengeLightRed}"/>
             <Setter Property="FontSize" Value="Micro"/>
             <Setter Property="FontFamily" Value="RobotoRegular"/>

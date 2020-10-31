@@ -12,3 +12,7 @@ D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppCha
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.dll
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\ref\MobileAppChallenge.dll
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.pdb
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Controls\DateEntry.xaml.g.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Controls\IconEntry.xaml.g.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Controls\Loader.xaml.g.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Controls\SimpleEntry.xaml.g.cs

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+      xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+      x:Class="MobileAppChallenge.Controls.IconEntry"
+      RowSpacing="0"
+      Margin="20,5,20,5">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <forms:SvgCachedImage Grid.Row="0" Grid.Column="0" x:Name="img" VerticalOptions="End"  HorizontalOptions="Center" HeightRequest="25" WidthRequest="25" DownsampleToViewSize="True"/>
+    <Button x:Name="btnVisibility" Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" Style="{StaticResource TransparentButton}" WidthRequest="40" IsVisible="False"/>
+    <Frame Grid.Row="0" Grid.Column="1" Padding="0" IsClippedToBounds="True" HasShadow="False" BackgroundColor="{StaticResource ChallengeOuterBackground}">
+        <Entry x:Name="txt" Text="" Margin="-15,-5,-14,-6" Style="{StaticResource EntryStyle}" Visual="Material" BackgroundColor="{StaticResource ChallengeOuterBackground}"/>
+    </Frame>
+    <Label  x:Name="lblVisibility" Grid.Row="0" Grid.Column="2" Text="Show" Style="{StaticResource SmallGrayMedium}" VerticalOptions="Center" HorizontalOptions="Center" IsVisible="False"/>
+    <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Style="{StaticResource EntryLine}"/>
+    <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" x:Name="txtError" Style="{StaticResource ChallengeErrorLabel}" IsVisible="False"/>
+</Grid>

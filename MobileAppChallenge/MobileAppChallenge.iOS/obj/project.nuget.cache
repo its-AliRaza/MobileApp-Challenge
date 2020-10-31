@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "PsSuJavP+nquK7NUaobFbXzELlPvSURh//w+alVY50oYw0eVEe9A1rjBh0NzCYDxW069U0FM0prxmYKfNl8GBg==",
+  "dgSpecHash": "SFgyZUWmHtWyZoeKGPX4rYkfTT+3Tj9Pml8Jqa73Nf0u2tEhDA+WcC7JuA5ElJA16RWuNeGDMydEJtX4BYa6Gw==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\PersonalProjects\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge.iOS\\MobileAppChallenge.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\itsal\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []

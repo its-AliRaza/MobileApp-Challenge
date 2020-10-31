@@ -3,8 +3,16 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MobileAppChallenge.Android.dll" comes first in this list. */
 		"MobileAppChallenge.Android.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Svg.Forms.dll",
+		"FFImageLoading.Svg.Platform.dll",
 		"FormsViewGroup.dll",
 		"MobileAppChallenge.dll",
+		"Plugin.CurrentActivity.dll",
+		"SkiaSharp.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
