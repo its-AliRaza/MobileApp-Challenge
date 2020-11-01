@@ -14,7 +14,7 @@
                 <StackLayout  Style="{StaticResource CompressedZeroSpacingStack}">
                     <Label Text="Create Account" Style="{StaticResource ChallengeTitle}" HorizontalOptions="Center" Margin="30"/>
                     <controls:IconEntry x:Name="txtName" Placeholder="FullName" Image="fullname.svg"/>
-                    <controls:IconEntry x:Name="txtPhone" Placeholder="Email" Image="email.svg"/>
+                    <controls:IconEntry x:Name="txtEmail" Placeholder="Email" Image="email.svg"/>
                     <controls:IconEntry x:Name="txtPassword" Placeholder="Password" Image="password.svg" IsPasswordEntry="True" IsPassword="True"/>
                     <controls:IconEntry x:Name="txtOtp" Image="securityCode.svg" Placeholder="Verification Code" MaxLength="4" IsVisible="False" Keyboard="Numeric"/>
                     <Label x:Name="txtOTPDescription" Text="Enter 4 digit code that send to your Phone Number" Style="{StaticResource SmallGrayRegular}" TextColor="{StaticResource ChallengeLine}" IsVisible="False" Margin="50,0,20,0"/>

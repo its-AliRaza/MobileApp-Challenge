@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:MobileAppChallenge.Controls"
+             x:Class="MobileAppChallenge.Views.MoreView">
+    <ContentView.Content>
+        <ScrollView>
+            <StackLayout  Style="{StaticResource CompressedZeroSpacingStack}" Margin="0,3,0,0">
+                <controls:MoreItem x:Name="btnPersonalInfo" Text="Personal Information"/>
+                <!--<controls:MoreItem x:Name="btnLabInfo" Text="Laboratory Information"/>-->
+                <controls:MoreItem x:Name="btnSettings" Text="Settings"/>
+                <controls:MoreItem x:Name="btnLogout" Text="Logout" ArrowVisibility="False"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentView.Content>
+</ContentView>

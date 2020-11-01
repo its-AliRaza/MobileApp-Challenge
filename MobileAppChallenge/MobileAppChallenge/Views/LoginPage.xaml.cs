@@ -10,8 +10,29 @@ namespace MobileAppChallenge.Views
         public LoginPage()
         {
             InitializeComponent();
+            btnLogin.Clicked += async (s, e) =>
+            {
+                try
+                {
+                    await Navigation.PopModalAsync();
+                }
+                catch { }
+            };
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            txtEmail.OnAppearing();
+            txtPassword.OnAppearing();
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            txtEmail.OnDisappearing();
+            txtPassword.OnDisappearing();
+        }
         private async void RegisterHereTapped(object sender, EventArgs e)
         {
             try

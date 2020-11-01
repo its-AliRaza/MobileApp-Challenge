@@ -16,5 +16,31 @@ namespace MobileAppChallenge.Views
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            try
+            {
+                txtName.OnAppearing();
+                txtEmail.OnAppearing();
+                txtPassword.OnAppearing();
+            }
+            catch { }
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            try
+            {
+                txtName.OnDisappearing();
+                txtEmail.OnDisappearing();
+                txtPassword.OnDisappearing();
+
+            }
+            catch { }
+        }
+
     }
 }

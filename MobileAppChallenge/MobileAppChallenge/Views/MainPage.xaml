@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms" xmlns:views="clr-namespace:MobileAppChallenge.Views"
+             x:Class="MobileAppChallenge.Views.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource ChallengeBackground}">
+    <ContentPage.Content>
+        <Grid RowSpacing="0" RowDefinitions="Auto,*,Auto" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Frame Grid.Row="0" Margin="0" Padding="0" BackgroundColor="#212D42" HasShadow="True" CornerRadius="0">
+                <StackLayout Spacing="0">
+                    <Label x:Name="txtTitle" Text="Dashboard" Style="{StaticResource ChallengeTitle}" TextColor="White"/>
+                </StackLayout>
+            </Frame>
+            <views:DashboardView x:Name="dashboardView" Grid.Row="1" />
+            <views:AddDeveloperView x:Name="developerView" Grid.Row="1" IsVisible="False"/>
+            <views:MoreView x:Name="moreView" Grid.Row="1" IsVisible="False"/>
+
+            <Grid Grid.Row="2" RowDefinitions="Auto,Auto" ColumnDefinitions="*,*,*" >
+                <Grid  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*,*,*" RowSpacing="0" ColumnSpacing="0"  BackgroundColor="White"  Padding="0" HeightRequest="55" Margin="0,0,0,-9">
+                    <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HeightRequest="1" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Color="{StaticResource ChallengeDark}" Opacity=".5" />
+                    <forms:SvgCachedImage x:Name="imgDashboard" Grid.Row="1" Grid.Column="0" Source="dashboard.svg" Aspect="AspectFit" HorizontalOptions="Center"  HeightRequest="25" WidthRequest="25" Margin="0,2,0,0"/>
+                    <Label x:Name="txtDashboard" Grid.Row="2" Grid.Column="0" Text="Dashboard" Style="{StaticResource SmallCenterBottomBarMediumLight}" TextColor="{StaticResource ChallengeDark}" />
+                    <forms:SvgCachedImage x:Name="imgMore" Grid.Row="1" Grid.Column="2" Source="more.svg" Aspect="AspectFit" HorizontalOptions="Center"  HeightRequest="25" WidthRequest="25"/>
+                    <Label x:Name="txtMore" Grid.Row="2" Grid.Column="2" Text="More" Style="{StaticResource SmallCenterBottomBarMediumLight}"/>
+
+                     </Grid>
+                <Frame  Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" CornerRadius="7" Padding="0,10,0,10" BackgroundColor="{StaticResource ChallengeBar}" HasShadow="False" BorderColor="{StaticResource ChallengeBackground}"  Margin="0,0,0,-15">
+                    <StackLayout Spacing="0">
+                        <forms:SvgCachedImage  x:Name="imgDeveloper" Source="history.svg" Aspect="AspectFit" HorizontalOptions="Center"  HeightRequest="25" WidthRequest="25"/>
+                        <Label x:Name="txtDeveloper" Grid.Row="1" Grid.Column="1" Text="Add Developer" Style="{StaticResource SmallCenterBottomBarMediumLight}" FontFamily="RobotoBold" TextColor="{StaticResource ChallengeBackground}"/>
+                    </StackLayout>
+                </Frame>
+                <Button x:Name="btnDashboard" Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Style="{StaticResource TransparentButton}"/>
+                <Button x:Name="btnDeveloper" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Style="{StaticResource TransparentButton}"/>
+                <Button x:Name="btnMore" Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Style="{StaticResource TransparentButton}"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

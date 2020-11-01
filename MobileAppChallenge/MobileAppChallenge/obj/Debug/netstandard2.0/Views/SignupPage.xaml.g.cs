@@ -20,7 +20,7 @@ namespace MobileAppChallenge.Views {
         private global::MobileAppChallenge.Controls.IconEntry txtName;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::MobileAppChallenge.Controls.IconEntry txtPhone;
+        private global::MobileAppChallenge.Controls.IconEntry txtEmail;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::MobileAppChallenge.Controls.IconEntry txtPassword;
@@ -50,7 +50,7 @@ namespace MobileAppChallenge.Views {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SignupPage));
             txtName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtName");
-            txtPhone = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtPhone");
+            txtEmail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtEmail");
             txtPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtPassword");
             txtOtp = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtOtp");
             txtOTPDescription = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtOTPDescription");

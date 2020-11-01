@@ -22,7 +22,7 @@ namespace MobileAppChallenge.Views
             {
                 var list = new List<Feature>
             {
-                new Feature{Description="Add Developers.", Image="Developer.svg" },
+                new Feature{Description="Add Developers", Image="Developer.svg" },
                 new Feature{Description="Developers List", Image="List.svg" },
                 new Feature{Description="Login Authentication", Image="Auth.svg" }
             };
