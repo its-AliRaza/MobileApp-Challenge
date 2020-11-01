@@ -4,8 +4,8 @@
       x:Class="MobileAppChallenge.Controls.SimpleEntry"
       Spacing="0"
       Margin="20,0,20,5">
-    <Frame Grid.Row="0" Grid.Column="1" Padding="0" IsClippedToBounds="True" HasShadow="False" BackgroundColor="{StaticResource ChallengeOuterBackground}">
-        <Entry x:Name="txt" Text="" Margin="-15,-5,-14,-6" Style="{StaticResource EntryStyle}" Visual="Material" BackgroundColor="{StaticResource ChallengeOuterBackground}"/>
+    <Frame Grid.Row="0" Grid.Column="1" Padding="0" IsClippedToBounds="True" HasShadow="False" BackgroundColor="{StaticResource ChallengeBackground}">
+        <Entry x:Name="txt" Text="" Margin="-15,-5,-14,-6" Style="{StaticResource EntryStyle}" Visual="Material" BackgroundColor="{StaticResource ChallengeBackground}"/>
     </Frame>
     <BoxView Style="{StaticResource EntryLine}"/>
     <Label x:Name="txtError" Style="{StaticResource ChallengeErrorLabel}" IsVisible="False"/>

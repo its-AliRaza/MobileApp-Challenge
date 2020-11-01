@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace MobileAppChallenge.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AddDeveloperView : ContentView
+    public partial class AddDeveloperView : Grid
     {
         public AddDeveloperView()
         {

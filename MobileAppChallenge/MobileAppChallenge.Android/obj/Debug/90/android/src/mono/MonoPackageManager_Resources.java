@@ -95,6 +95,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.ViewPager.dll",
 		"Xamarin.Essentials.dll",
 		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.Extended.InfiniteScrolling.dll",
 		"Xamarin.Forms.Material.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",

@@ -154,6 +154,19 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
+        }
+      },
       "Xamarin.Forms.Visual.Material/4.8.0.1560": {
         "type": "package",
         "dependencies": {
@@ -983,6 +996,19 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+      "sha512": "q3MleY9BqDnVKUiXSvYETV++mg70CVXt7h2jqd3etdq5HHrRTYJdjZUdAEBYg5OozfABV7m5QtISU1XheV83XQ==",
+      "type": "package",
+      "path": "xamarin.forms.extended.infinitescrolling/1.0.0-preview2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.xml",
+        "xamarin.forms.extended.infinitescrolling.1.0.0-preview2.nupkg.sha512",
+        "xamarin.forms.extended.infinitescrolling.nuspec"
+      ]
+    },
     "Xamarin.Forms.Visual.Material/4.8.0.1560": {
       "sha512": "fdKy+STdhCxf+eVIPSIXRCQ5qMjGbf3VEFc7dfU0rw42vV52kvJgKkD1ugQSg9V2W8q+V9ErP0gbIZm6hQD1zQ==",
       "type": "package",
@@ -1016,6 +1042,7 @@
       "Xamarin.FFImageLoading.Svg >= 2.4.11.982",
       "Xamarin.FFImageLoading.Svg.Forms >= 2.4.11.982",
       "Xamarin.Forms >= 4.8.0.1560",
+      "Xamarin.Forms.Extended.InfiniteScrolling >= 1.0.0-preview2",
       "Xamarin.Forms.Visual.Material >= 4.8.0.1560"
     ]
   },
@@ -1086,6 +1113,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.8.0.1560, )"
+          },
+          "Xamarin.Forms.Extended.InfiniteScrolling": {
+            "target": "Package",
+            "version": "[1.0.0-preview2, )"
           },
           "Xamarin.Forms.Visual.Material": {
             "target": "Package",

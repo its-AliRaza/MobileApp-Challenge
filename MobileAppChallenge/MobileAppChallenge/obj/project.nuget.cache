@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bgU4QvBsfZovgIBZn//tS7Nq7ZEkVC3umuplJqAsf/NKucnKDHSBYAyYSu2sM7FmanLxeaONwy6Hkdhp8CekuQ==",
+  "dgSpecHash": "G7gfDi6jFUwmLdZoHRF4Fq2I871aTbhHjGTRSTyHnfCl+TxGAZoUG6YT/7H4QlfHTv1aJIsm5Rd/9bPkFV444Q==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\PersonalProjects\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\itsal\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\xamarin.forms.extended.infinitescrolling\\1.0.0-preview2\\xamarin.forms.extended.infinitescrolling.1.0.0-preview2.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1560\\xamarin.forms.visual.material.4.8.0.1560.nupkg.sha512"
   ],
   "logs": []

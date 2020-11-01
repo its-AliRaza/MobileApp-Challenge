@@ -14,11 +14,35 @@ namespace MobileAppChallenge.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AddDeveloperView.xaml")]
-    public partial class AddDeveloperView : global::Xamarin.Forms.ContentView {
+    public partial class AddDeveloperView : global::Xamarin.Forms.Grid {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::MobileAppChallenge.Controls.SimpleEntry txtName;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::MobileAppChallenge.Controls.SimpleEntry txtEmailNumber;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::MobileAppChallenge.Controls.SimpleEntry txtCompany;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::MobileAppChallenge.Controls.SimpleEntry txtAge;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button btnAdd;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::MobileAppChallenge.Controls.Loader loader;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AddDeveloperView));
+            txtName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtName");
+            txtEmailNumber = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtEmailNumber");
+            txtCompany = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtCompany");
+            txtAge = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtAge");
+            btnAdd = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnAdd");
+            loader = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.Loader>(this, "loader");
         }
     }
 }

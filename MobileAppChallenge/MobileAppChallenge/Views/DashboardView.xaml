@@ -1,10 +1,108 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileAppChallenge.Views.DashboardView">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Dashboard" />
-      </StackLayout>
-  </ContentView.Content>
-</ContentView>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+      xmlns:viewmodels="clr-namespace:MobileAppChallenge.ViewModels" 
+      xmlns:controls="clr-namespace:MobileAppChallenge.Controls"
+      xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling" xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+      x:Class="MobileAppChallenge.Views.DashboardView" 
+      x:Name="historyView"
+      RowSpacing="0"
+      RowDefinitions="Auto,Auto,Auto,*"
+      ColumnDefinitions="*,*"
+      HorizontalOptions="FillAndExpand"
+      VerticalOptions="FillAndExpand">
+    <Grid.BindingContext>
+        <viewmodels:DashboardViewModel/>
+    </Grid.BindingContext>
+    <Label Margin="10,5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  Style="{StaticResource SmallDarkMedium}">
+        <Label.FormattedText>
+            <FormattedString>
+                <Span Text="Welcome "/>
+                <Span  x:Name="lblName" Text="Ali Raza" FontFamily="RobotoBold"/>
+            </FormattedString>
+        </Label.FormattedText>
+    </Label>
+    <Label Margin="10,0,10,10" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Below is your Developers List" Style="{StaticResource SmallDarkMedium}"/>
+    <BoxView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White"/>
+
+    <controls:DateEntry x:Name="fromDate" Text="" Grid.Row="2" Grid.Column="0" Margin="5" Placeholder="From"/>
+    <controls:DateEntry x:Name="toDate" Text="" Grid.Row="2" Grid.Column="1" Margin="5" Placeholder="To"/>
+    <Label x:Name="lblFrom" Text="{Binding From,  Mode=TwoWay}" IsVisible="False"/>
+    <Label x:Name="lblTo" Text="{Binding To,  Mode=TwoWay}" IsVisible="False"/>
+
+    <ListView x:Name="list" Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="2" HasUnevenRows="True" CachingStrategy="RecycleElement"  SeparatorVisibility="None" ItemsSource="{Binding Items}" IsVisible="{Binding HasHistory,Mode=TwoWay}">
+        <ListView.Header>
+            <BoxView HeightRequest="5" BackgroundColor="{StaticResource ChallengeBackground}"/>
+        </ListView.Header>
+        <ListView.Behaviors>
+            <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}" />
+        </ListView.Behaviors>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Margin="10,0" Spacing="0">
+                        <Frame Grid.Row="0" Style="{StaticResource FrameStyle}" Padding="10,15,10,10" Margin="0,5">
+                            <Grid RowSpacing="0" ColumnSpacing="0" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,Auto">
+
+                                <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Padding="5,3" HorizontalOptions="Center" Style="{StaticResource FrameStyle}" BorderColor="#08415C">
+                                    <Label Text="{Binding D_D_Name}" Style="{StaticResource SmallCenterBottomBarMediumLight}" TextColor="{StaticResource ELabsDark}"/>
+                                </Frame>
+                                <Label Grid.Row="1" Grid.Column="0" Text="{Binding D_Name}" Style="{StaticResource MediumDarkMedium}"/>
+                                <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource SmallGrayMedium}">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Company: "/>
+                                            <Span Text="{Binding D_ComName}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource SmallCenterBottomBarMediumLight}">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Created By: "/>
+                                            <Span Text="{Binding D_CreatedBy}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource SmallCenterBottomBarMediumLight}" >
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Created At: "/>
+                                            <Span Text="{Binding D_CreatedAt}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Grid.Row="0" Grid.RowSpan="3" Grid.Column="1" Style="{StaticResource SmallCenterBottomBarMediumLight}">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Age: "/>
+                                            <Span Text="{Binding D_Age}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        <ListView.Footer>
+            <!--<BoxView HeightRequest="5" BackgroundColor="{StaticResource ELabsBackground}"/>-->
+            <Grid Padding="6" IsVisible="{Binding IsBusy}">
+                <!-- set the footer to have a zero height when invisible -->
+                <Grid.Triggers>
+                    <Trigger TargetType="Grid" Property="IsVisible" Value="False">
+                        <Setter Property="HeightRequest" Value="0" />
+                    </Trigger>
+                </Grid.Triggers>
+                <!-- the loading content -->
+                <ActivityIndicator Color="{StaticResource ChallengeBar}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" WidthRequest="50" IsRunning="True" IsEnabled="True" IsVisible="True"/>
+            </Grid>
+
+        </ListView.Footer>
+    </ListView>
+    <StackLayout Grid.Row="0" Grid.RowSpan="2"  Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center" IsVisible="{Binding NotFound,Mode=TwoWay}">
+        <forms:SvgCachedImage Source="noData.svg" Aspect="AspectFit" HorizontalOptions="Center"  HeightRequest="190" WidthRequest="190" DownsampleToViewSize="True"/>
+        <Label Text="No History Found." Style="{StaticResource SmallGrayMedium}" HorizontalOptions="Center" FontSize="Medium"/>
+    </StackLayout>
+</Grid>
