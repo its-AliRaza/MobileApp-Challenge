@@ -23,3 +23,5 @@ D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppCha
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Views\AddDeveloperView.xaml.g.cs
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Views\DashboardView.xaml.g.cs
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\Views\MoreView.xaml.g.cs
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\MobileAppChallenge.csproj.CoreCompileInputs.cache
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge\obj\Debug\netstandard2.0\XamlC.stamp

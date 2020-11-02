@@ -26,22 +26,7 @@ namespace MobileAppChallenge.Views {
         private global::MobileAppChallenge.Controls.IconEntry txtPassword;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::MobileAppChallenge.Controls.IconEntry txtOtp;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label txtOTPDescription;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btnChangeEmail;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btnOTPResend;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button btnRegister;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btnVerify;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::MobileAppChallenge.Controls.Loader loader;
@@ -52,12 +37,7 @@ namespace MobileAppChallenge.Views {
             txtName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtName");
             txtEmail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtEmail");
             txtPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtPassword");
-            txtOtp = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.IconEntry>(this, "txtOtp");
-            txtOTPDescription = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtOTPDescription");
-            btnChangeEmail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnChangeEmail");
-            btnOTPResend = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnOTPResend");
             btnRegister = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnRegister");
-            btnVerify = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnVerify");
             loader = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.Loader>(this, "loader");
         }
     }

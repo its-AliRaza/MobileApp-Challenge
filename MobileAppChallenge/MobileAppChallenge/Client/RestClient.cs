@@ -72,7 +72,7 @@ namespace MobileAppChallenge.Client
                 var resContent = response.Content.ReadAsStringAsync().Result;
                 return resContent;
             }
-            catch { }
+            catch(Exception ex) { }
             return "";
         }
     }

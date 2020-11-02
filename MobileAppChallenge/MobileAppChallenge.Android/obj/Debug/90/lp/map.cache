@@ -3,6 +3,8 @@ FFImageLoading.Platform
 FFImageLoading.Svg.Forms
 FFImageLoading.Svg.Platform
 FormsViewGroup
+MonkeyCache
+MonkeyCache.FileStore
 Plugin.CurrentActivity
 Plugin.Fingerprint
 SkiaSharp
@@ -92,5 +94,3 @@ androidx.lifecycle.lifecycle-livedata
 androidx.legacy.legacy-support-v4
 androidx.browser.browser
 androidx.biometric.biometric
-MonkeyCache
-MonkeyCache.FileStore

@@ -11,6 +11,8 @@ public class MonoPackageManager_Resources {
 		"FFImageLoading.Svg.Platform.dll",
 		"FormsViewGroup.dll",
 		"MobileAppChallenge.dll",
+		"MonkeyCache.dll",
+		"MonkeyCache.FileStore.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Fingerprint.dll",

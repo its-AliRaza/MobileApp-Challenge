@@ -16,12 +16,12 @@
                     <controls:IconEntry x:Name="txtName" Placeholder="FullName" Image="fullname.svg"/>
                     <controls:IconEntry x:Name="txtEmail" Placeholder="Email" Image="email.svg"/>
                     <controls:IconEntry x:Name="txtPassword" Placeholder="Password" Image="password.svg" IsPasswordEntry="True" IsPassword="True"/>
-                    <controls:IconEntry x:Name="txtOtp" Image="securityCode.svg" Placeholder="Verification Code" MaxLength="4" IsVisible="False" Keyboard="Numeric"/>
+                    <!--<controls:IconEntry x:Name="txtOtp" Image="securityCode.svg" Placeholder="Verification Code" MaxLength="4" IsVisible="False" Keyboard="Numeric"/>
                     <Label x:Name="txtOTPDescription" Text="Enter 4 digit code that send to your Phone Number" Style="{StaticResource SmallGrayRegular}" TextColor="{StaticResource ChallengeLine}" IsVisible="False" Margin="50,0,20,0"/>
                     <Grid Style="{StaticResource CompressedZeroSpacingGrid}" RowDefinitions="Auto" ColumnDefinitions="*,*">
                         <Button Grid.Row="0" Grid.Column="0" x:Name="btnChangeEmail" Style="{StaticResource ChalllengeButton}" Text="Change Eamil Address" TextColor="{StaticResource ChallengeBar}" BorderColor="{StaticResource ChallengeBar}" BackgroundColor="{StaticResource ChallengeOuterBackground}" IsVisible="False" BorderWidth="2"  FontSize="Micro" Margin="10,10,0,0"/>
                         <Button Grid.Row="0" Grid.Column="1" x:Name="btnOTPResend" Style="{StaticResource ChalllengeButton}" TextColor="{StaticResource ChallengeBar}" BorderColor="{StaticResource ChallengeBar}" BackgroundColor="{StaticResource ChallengeOuterBackground}" IsVisible="False" IsEnabled="False" BorderWidth="2" FontSize="Micro" Margin="0,10,10,0"/>
-                    </Grid>
+                    </Grid>-->
                     <Label  Text=" and Privacy Policy." Style="{StaticResource SmallDarkRegular}" Margin="20,20,20,0">
                         <Label.FormattedText>
                             <FormattedString>
@@ -34,7 +34,7 @@
                         </Label.FormattedText>
                     </Label>
                     <Button x:Name="btnRegister" Text="Create Account" Style="{StaticResource ChalllengeButton}"  Margin="10"/>
-                    <Button x:Name="btnVerify" Text="Verify" Style="{StaticResource ChalllengeButton}" Margin="10" IsVisible="false"/>
+                    <!--<Button x:Name="btnVerify" Text="Verify" Style="{StaticResource ChalllengeButton}" Margin="10" IsVisible="false"/>-->
                 </StackLayout>
             </ScrollView>
             <controls:Loader x:Name="loader" Grid.Row="0"/>
