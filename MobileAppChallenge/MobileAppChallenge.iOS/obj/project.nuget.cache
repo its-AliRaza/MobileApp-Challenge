@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qFDb53sLPfBDJKTP0239R38hRL3Q95PUFQLLbVT2xO7G7t3J9FuTarZQvdIxHe6j8TU8T7OLLIK9ACfDmPetAA==",
+  "dgSpecHash": "6qQ25oU6MV0rho1x/7Y2QSeuDURIsRzpxNPz/qJ4vjKubG297MQc3vXJ6zLvBy794d//IFcGbioYWgUgN/uVlQ==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\PersonalProjects\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge.iOS\\MobileAppChallenge.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\plugin.fingerprint\\2.1.2\\plugin.fingerprint.2.1.2.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rixhVidaRD1sDhD9U1Qw3QIeoi4XWjHjRC+MZdEarqt11rCfgKFMejSrcfoj5oP7P0dClf50r8IJVt5I5UzKvw==",
+  "dgSpecHash": "kF6nWfWQqjkBqS+6K8YkaqGEsrbbiUGrZ0k8G+FdiSyZrJdarpPD5WCx4NO+lL14gD/KJGBoPFhfm9/+FUqm/A==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\PersonalProjects\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge.Android\\MobileAppChallenge.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\plugin.fingerprint\\2.1.2\\plugin.fingerprint.2.1.2.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",

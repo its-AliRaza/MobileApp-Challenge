@@ -9,5 +9,6 @@ namespace MobileAppChallenge.Models
         public string U_Name { get; set; }
         public string U_Email { get; set; }
         public string U_Password { get; set; }
+        public string Token { get; set; }
     }
 }
