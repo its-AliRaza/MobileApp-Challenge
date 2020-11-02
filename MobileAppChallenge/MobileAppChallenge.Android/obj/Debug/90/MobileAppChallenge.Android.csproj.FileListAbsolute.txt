@@ -1,10 +1,5 @@
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\MobileAppChallenge.Android.dll
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\MobileAppChallenge.Android.pdb
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.companyname.mobileappchallenge.apk
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.companyname.mobileappchallenge.aab
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.companyname.mobileappchallenge-Signed.aab
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.companyname.mobileappchallenge-Signed.apk
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.companyname.mobileappchallenge-Signed.apk.idsig
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\MobileAppChallenge.dll
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\MobileAppChallenge.pdb
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
@@ -20,10 +15,7 @@ D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppCha
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\MobileAppChallenge.Android.csproj.CopyComplete
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\MobileAppChallenge.Android.dll
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\MobileAppChallenge.Android.pdb
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\com.companyname.mobileappchallenge.apk
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\base.zip
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\com.companyname.mobileappchallenge.aab
-D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\com.companyname.mobileappchallenge.apks
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\res\layout\tabbar.xml
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\res\layout\toolbar.xml
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\res\values\styles.xml
@@ -684,3 +676,12 @@ D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppCha
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\androidx\proguard\a7ded7e4-a784-4bcc-b970-f8c7aa17d0bd.txt
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\androidx\proguard\b4f74904-4c28-4327-b1a3-a0cfccb0b3fc.txt
 D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\androidx\proguard\c49edb84-e06e-4cf8-95b2-b089c653beed.txt
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.mobileappchallenge.android.apk
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.mobileappchallenge.android.aab
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.mobileappchallenge.android-Signed.aab
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.mobileappchallenge.android-Signed.apk
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\bin\Debug\com.mobileappchallenge.android-Signed.apk.idsig
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\com.mobileappchallenge.android.apk
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\com.mobileappchallenge.android.aab
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\bin\com.mobileappchallenge.android.apks
+D:\Workspace\PersonalProjects\MobileAppChallenge\MobileAppChallenge\MobileAppChallenge.Android\obj\Debug\90\android\src\com\mobileappchallenge\android\R.java

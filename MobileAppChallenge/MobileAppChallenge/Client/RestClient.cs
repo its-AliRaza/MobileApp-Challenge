@@ -14,7 +14,7 @@ namespace MobileAppChallenge.Client
 {
     public class RestClient
     {
-        string baseUrl = "";
+        string baseUrl = "http://104.168.250.213/api/";
         public RestClient()
         {
             if (Utils.User != null)

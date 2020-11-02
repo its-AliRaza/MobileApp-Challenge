@@ -19,9 +19,13 @@
                         </Label.GestureRecognizers>
                     </Label>
                     <Button x:Name="btnLogin" Text="Login" Style="{StaticResource ChalllengeButton}"/>
-                    <ffImageLoading:SvgCachedImage x:Name="imgID" DownsampleToViewSize="True" HorizontalOptions="Center" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Margin="0,10,0,0"/>
+                    <ffImageLoading:SvgCachedImage x:Name="imgID" DownsampleToViewSize="True" HorizontalOptions="Center" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Margin="0,10,0,0">
+                        <ffImageLoading:SvgCachedImage.GestureRecognizers>
+                            <TapGestureRecognizer  Tapped="TouchIDTapped"/>
+                        </ffImageLoading:SvgCachedImage.GestureRecognizers>
+                    </ffImageLoading:SvgCachedImage>
                     <Label x:Name="txtID" Text="Enable Touch ID" Style="{StaticResource SmallDarkRegular}" HorizontalOptions="Center"/>
-                    <Switch  x:Name="authSwitch" VerticalOptions="Center"  HorizontalOptions="Center"/>
+                    <Switch  x:Name="authSwitch" VerticalOptions="Center"  HorizontalOptions="Center" Toggled="Switch_Toggled"/>
                     <Label Style="{StaticResource SmallDarkRegular}" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Margin="20,10">
                         <Label.FormattedText>
                             <FormattedString>
