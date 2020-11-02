@@ -41,7 +41,7 @@ namespace MobileAppChallenge.Views
                         var response = JsonConvert.DeserializeObject<Response>(resContent.ToString());
                         if (response.Code == "200")
                         {
-                            await DisplayAlert("Success", "Account Register Successfully", "Ok");
+                            await DisplayAlert("Success", "Account Register Successfully. For Email Verification we can use any mailing service at api end to send OTP there and then validate Here.", "Ok");
                             SecureStorage.RemoveAll();
                             Preferences.Clear();
 
