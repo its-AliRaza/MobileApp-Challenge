@@ -16,6 +16,12 @@ namespace MobileAppChallenge.Views
         public DashboardView()
         {
             InitializeComponent();
+
+            MessagingCenter.Subscribe<LoginPage>(this, "LoginSuccess", (sender) =>
+            {
+                lblName.Text = Utils.User.U_Name;
+                InitializeData();
+            });
             fromDate.MaximumDate = toDate.MaximumDate = DateTime.Now;
             fromDate.MinimumDate = toDate.SelectedDate.AddMonths(-3);
             fromDate.OnChanged += (s, e) =>
@@ -49,7 +55,8 @@ namespace MobileAppChallenge.Views
                 }
                 catch { }
             };
-
+            lblName.Text = Utils.User.U_Name;
+            InitializeData();
         }
 
         public void InitializeData()

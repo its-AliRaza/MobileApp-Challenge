@@ -1,4 +1,5 @@
 ﻿using MobileAppChallenge.Helpers;
+using MonkeyCache.FileStore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,8 @@ namespace MobileAppChallenge.Views
         public MainPage()
         {
             InitializeComponent();
-            Navigation.PushModalAsync(new NavigationPage(new StartPage()));
+            if (Barrel.Current.IsExpired("U_Data"))
+                Navigation.PushModalAsync(new NavigationPage(new StartPage()));
         }
         protected override void OnAppearing()
         {
@@ -54,6 +56,7 @@ namespace MobileAppChallenge.Views
             try
             {
                 txtTitle.Text = "Dashboard";
+                dashboardView.InitializeData();
                 imgDashboard.ReplaceStringMap = Checked;
                 imgMore.ReplaceStringMap = UnChecked;
                 txtDashboard.TextColor = Color.FromHex("#08415C");
@@ -109,6 +112,7 @@ namespace MobileAppChallenge.Views
                     dashboardView.IsVisible = false;
                     developerView.IsVisible = false;
                     imgMore.ReplaceStringMap = Checked;
+                    dashboardView.DisInitializeData();
                     imgDashboard.ReplaceStringMap = UnChecked;
                     txtMore.TextColor = Color.FromHex("#08415C");
                     txtDashboard.TextColor = Color.FromHex("#D5DBDB");

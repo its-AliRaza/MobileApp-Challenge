@@ -14,4 +14,17 @@ namespace MobileAppChallenge.Models
         public string R_CreatedBy { get; set; }
         public string R_CreatedAt { get; set; }
     }
+
+    public class TotalDeveloper
+    {
+        public List<Developer> Reports { get; set; } = new List<Developer>();
+        public int TotalPages { get; set; }
+    }
+
+    public class DeveloperRequest
+    {
+        public string From { get; set; }
+        public string To { get; set; }
+        public int Page { get; set; }
+    }
 }

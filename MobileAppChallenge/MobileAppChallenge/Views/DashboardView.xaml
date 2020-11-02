@@ -18,7 +18,7 @@
         <Label.FormattedText>
             <FormattedString>
                 <Span Text="Welcome "/>
-                <Span  x:Name="lblName" Text="Ali Raza" FontFamily="RobotoBold"/>
+                <Span  x:Name="lblName" FontFamily="RobotoBold"/>
             </FormattedString>
         </Label.FormattedText>
     </Label>
@@ -87,7 +87,6 @@
             </DataTemplate>
         </ListView.ItemTemplate>
         <ListView.Footer>
-            <!--<BoxView HeightRequest="5" BackgroundColor="{StaticResource ELabsBackground}"/>-->
             <Grid Padding="6" IsVisible="{Binding IsBusy}">
                 <!-- set the footer to have a zero height when invisible -->
                 <Grid.Triggers>
@@ -101,7 +100,7 @@
 
         </ListView.Footer>
     </ListView>
-    <StackLayout Grid.Row="0" Grid.RowSpan="2"  Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center" IsVisible="{Binding NotFound,Mode=TwoWay}">
+    <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center" IsVisible="{Binding NotFound,Mode=TwoWay}">
         <forms:SvgCachedImage Source="noData.svg" Aspect="AspectFit" HorizontalOptions="Center"  HeightRequest="190" WidthRequest="190" DownsampleToViewSize="True"/>
         <Label Text="No History Found." Style="{StaticResource SmallGrayMedium}" HorizontalOptions="Center" FontSize="Medium"/>
     </StackLayout>

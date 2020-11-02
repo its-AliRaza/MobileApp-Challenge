@@ -1,5 +1,7 @@
-﻿using MobileAppChallenge.Helpers;
+﻿using MobileAppChallenge.Client;
+using MobileAppChallenge.Helpers;
 using MobileAppChallenge.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +12,7 @@ using Xamarin.Forms.Extended;
 
 namespace MobileAppChallenge.ViewModels
 {
-    public class DashboardViewModel
+    public class DashboardViewModel : INotifyPropertyChanged
     {
         private bool _isBusy;
         private bool _hasHistory;
@@ -134,8 +136,32 @@ namespace MobileAppChallenge.ViewModels
             var items = new List<Developer>();
             try
             {
+                var client = new RestClient();
+                var request = new DeveloperRequest()
                 {
-                    return items;
+                    From = _fromDate,
+                    To = _toDate,
+                    Page = page
+                };
+                var resContent = await client.PostAsync("Developer/GetDevelopers", request);
+                var response = JsonConvert.DeserializeObject<Response>(resContent.ToString());
+                if (response.Code == "200")
+                {
+                    Page++;
+                    var data = JsonConvert.DeserializeObject<TotalDeveloper>(response.Data.ToString());
+                    if (data.Reports.Count == 0)
+                    {
+                        HasHistory = false;
+                        NotFound = true;
+                    }
+                    else
+                    {
+                        HasHistory = true;
+                        NotFound = false;
+                    }
+
+                    TotalPages = data.TotalPages;
+                    return data.Reports;
                 }
             }
             catch { IsBusy = false; }

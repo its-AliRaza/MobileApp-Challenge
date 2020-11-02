@@ -182,7 +182,7 @@ namespace MobileAppChallenge.Views
                             Utils.User.U_Password = request.U_Password;
                             Utils.Token = Utils.User.Token;
                             Barrel.Current.EmptyAll();
-                            Barrel.Current.Add<User>("U_Data", Utils.User, new TimeSpan(21, 0, 0, 0));
+                            Barrel.Current.Add<User>("U_Data", Utils.User, new TimeSpan(0, 2, 0, 0));
                             if (isChecked)
                             {
                                 await SecureStorage.SetAsync("U_Email", txtEmail.Text);
