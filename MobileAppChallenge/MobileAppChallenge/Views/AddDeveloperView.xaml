@@ -7,10 +7,9 @@
       x:Class="MobileAppChallenge.Views.AddDeveloperView">
     <ScrollView Grid.Row="0">
         <StackLayout Spacing="0">
-            <controls:SimpleEntry x:Name="txtName" Grid.Row="0" Placeholde="First Name" Text="" Margin="15,15,15,0"/>
-            <controls:SimpleEntry x:Name="txtEmailNumber" Grid.Row="1" Text="" Placeholde="Email" Margin="15,5"/>
-            <controls:SimpleEntry x:Name="txtCompany" Grid.Row="2" Placeholde="Company" Text="" Margin="15,0"/>
-            <controls:SimpleEntry x:Name="txtAge" Grid.Row="3" Text="" Placeholde="Age" Margin="15,5,15,0" />
+            <controls:SimpleEntry x:Name="txtName" Placeholde="First Name" Text="" Margin="15,15,15,0"/>
+            <controls:SimpleEntry x:Name="txtEmail" Text="" Placeholde="Email" Margin="15,5"/>
+            <controls:SimpleEntry x:Name="txtAge" Text="" Placeholde="Age" Margin="15,5,15,0" />
             <Button x:Name="btnAdd" Grid.Row="4" Text="Add" Style="{StaticResource ChalllengeButton}" Margin="10"/>
         </StackLayout>
     </ScrollView>

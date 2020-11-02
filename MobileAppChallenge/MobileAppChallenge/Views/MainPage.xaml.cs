@@ -57,6 +57,7 @@ namespace MobileAppChallenge.Views
             {
                 txtTitle.Text = "Dashboard";
                 dashboardView.InitializeData();
+                developerView.DisInitializeData();
                 imgDashboard.ReplaceStringMap = Checked;
                 imgMore.ReplaceStringMap = UnChecked;
                 txtDashboard.TextColor = Color.FromHex("#08415C");
@@ -77,6 +78,10 @@ namespace MobileAppChallenge.Views
                 if (Connectivity.NetworkAccess == NetworkAccess.Internet)
                 {
                     txtTitle.Text = "Add Developer";
+
+                    developerView.InitializeData();
+                    dashboardView.DisInitializeData();
+
                     developerView.IsVisible = true;
                     moreView.IsVisible = false;
                     dashboardView.IsVisible = false;
@@ -113,6 +118,7 @@ namespace MobileAppChallenge.Views
                     developerView.IsVisible = false;
                     imgMore.ReplaceStringMap = Checked;
                     dashboardView.DisInitializeData();
+                    developerView.DisInitializeData();
                     imgDashboard.ReplaceStringMap = UnChecked;
                     txtMore.TextColor = Color.FromHex("#08415C");
                     txtDashboard.TextColor = Color.FromHex("#D5DBDB");

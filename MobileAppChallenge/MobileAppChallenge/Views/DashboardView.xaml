@@ -45,14 +45,14 @@
                             <Grid RowSpacing="0" ColumnSpacing="0" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,Auto">
 
                                 <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Padding="5,3" HorizontalOptions="Center" Style="{StaticResource FrameStyle}" BorderColor="#08415C">
-                                    <Label Text="{Binding D_D_Name}" Style="{StaticResource SmallCenterBottomBarMediumLight}" TextColor="{StaticResource ELabsDark}"/>
+                                    <Label Text="{Binding D_Name}" Style="{StaticResource SmallCenterBottomBarMediumLight}" TextColor="{StaticResource ChallengeDark}"/>
                                 </Frame>
                                 <Label Grid.Row="1" Grid.Column="0" Text="{Binding D_Name}" Style="{StaticResource MediumDarkMedium}"/>
                                 <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource SmallGrayMedium}">
                                     <Label.FormattedText>
                                         <FormattedString>
-                                            <Span Text="Company: "/>
-                                            <Span Text="{Binding D_ComName}"/>
+                                            <Span Text="Email: "/>
+                                            <Span Text="{Binding D_Email}"/>
                                         </FormattedString>
                                     </Label.FormattedText>
                                 </Label>

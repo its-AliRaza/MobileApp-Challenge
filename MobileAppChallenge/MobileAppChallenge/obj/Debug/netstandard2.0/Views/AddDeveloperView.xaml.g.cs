@@ -20,10 +20,7 @@ namespace MobileAppChallenge.Views {
         private global::MobileAppChallenge.Controls.SimpleEntry txtName;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::MobileAppChallenge.Controls.SimpleEntry txtEmailNumber;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::MobileAppChallenge.Controls.SimpleEntry txtCompany;
+        private global::MobileAppChallenge.Controls.SimpleEntry txtEmail;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::MobileAppChallenge.Controls.SimpleEntry txtAge;
@@ -38,8 +35,7 @@ namespace MobileAppChallenge.Views {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AddDeveloperView));
             txtName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtName");
-            txtEmailNumber = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtEmailNumber");
-            txtCompany = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtCompany");
+            txtEmail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtEmail");
             txtAge = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.SimpleEntry>(this, "txtAge");
             btnAdd = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnAdd");
             loader = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobileAppChallenge.Controls.Loader>(this, "loader");
