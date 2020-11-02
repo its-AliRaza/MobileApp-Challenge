@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppChallenge.Views.SettingsPage"
+             Title="Settings"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid Style="{StaticResource CompressedZeroSpacingGrid}" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,Auto">
+            <Label Grid.Row="0" Grid.Column="0" Text="App Version" VerticalOptions="Center" Style="{StaticResource  SmallGrayMedium}" FontSize="Medium" Margin="15,13"/>
+            <Label Grid.Row="0" Grid.Column="1" Text="1.0" Style="{StaticResource  SmallGrayMedium}" FontSize="Medium" HorizontalOptions="End" Margin="15,13"/>
+            <BoxView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource EntryLine}" Margin="15,0"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="Enable Quick Access" Style="{StaticResource  SmallGrayMedium}" FontSize="Medium"  Margin="15,13"/>
+            <Switch x:Name="switchQuickAccess" Grid.Row="2" Grid.Column="1" HorizontalOptions="End" Margin="7,13" Toggled="Switch_Toggled"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

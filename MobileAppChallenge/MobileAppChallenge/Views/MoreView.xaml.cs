@@ -27,13 +27,13 @@ namespace MobileAppChallenge.Views
             }
             catch { }
         }
-        private void PersonalInfo(object sender, EventArgs e)
+        private async void PersonalInfo(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new PersonalInfoPage());
         }
-        private void Settings(object sender, EventArgs e)
+        private async void Settings(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new SettingsPage());
         }
 
         private async void Logout(object sender, EventArgs e)
