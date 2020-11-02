@@ -1,4 +1,5 @@
 ﻿using MobileAppChallenge.Helpers;
+using MonkeyCache.FileStore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,6 +43,9 @@ namespace MobileAppChallenge.Views
             {
                 await Navigation.PushModalAsync(new NavigationPage(new StartPage()));
                 Utils.Logout = true;
+                Utils.User = new Models.User();
+                Utils.Token = "";
+                Barrel.Current.EmptyAll();
                 OnDisappearing();
             }
             catch { }

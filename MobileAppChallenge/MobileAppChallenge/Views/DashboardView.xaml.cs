@@ -20,6 +20,7 @@ namespace MobileAppChallenge.Views
             MessagingCenter.Subscribe<LoginPage>(this, "LoginSuccess", (sender) =>
             {
                 lblName.Text = Utils.User.U_Name;
+                DisInitializeData();
                 InitializeData();
             });
             fromDate.MaximumDate = toDate.MaximumDate = DateTime.Now;
