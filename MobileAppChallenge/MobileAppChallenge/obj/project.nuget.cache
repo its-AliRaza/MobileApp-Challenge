@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M/reLwL81sl2GI/LeBBlYVNRXSaLksYAaBmro+8F8SUWv4GjLcUwLVM0TrHkbnYuk5URx0rQDIIWyLbbX6tljg==",
+  "dgSpecHash": "HgIACXlxZ3UZfitMnsyb5gSRwF447W32lxwptOKAUB9xNcjoDm5LuLvA7xgPWdgza5+CtRmzMnyQc65VtuP22g==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\PersonalProjects\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\monkeycache\\1.5.0-beta\\monkeycache.1.5.0-beta.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\monkeycache.filestore\\1.5.0-beta\\monkeycache.filestore.1.5.0-beta.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\plugin.fingerprint\\2.1.2\\plugin.fingerprint.2.1.2.nupkg.sha512",

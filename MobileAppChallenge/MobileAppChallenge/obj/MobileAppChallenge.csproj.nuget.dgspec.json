@@ -42,6 +42,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MonkeyCache": {
+              "target": "Package",
+              "version": "[1.5.0-beta, )"
+            },
+            "MonkeyCache.FileStore": {
+              "target": "Package",
+              "version": "[1.5.0-beta, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

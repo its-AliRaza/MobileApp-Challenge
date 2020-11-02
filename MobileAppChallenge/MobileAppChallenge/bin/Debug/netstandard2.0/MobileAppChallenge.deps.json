@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "MobileAppChallenge/1.0.0": {
         "dependencies": {
+          "MonkeyCache": "1.5.0-beta",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Fingerprint": "2.1.2",
@@ -24,6 +25,17 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MonkeyCache/1.5.0-beta": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonkeyCache.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -167,6 +179,13 @@
       "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MonkeyCache/1.5.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGkw6tVEmWzIP27/B3XdioGQhn1aOC/PvhSUjAej+nlcln01xEGbhEl9RbeXQk7L/fah8lGlIp4e19C8w60Wkw==",
+      "path": "monkeycache/1.5.0-beta",
+      "hashPath": "monkeycache.1.5.0-beta.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

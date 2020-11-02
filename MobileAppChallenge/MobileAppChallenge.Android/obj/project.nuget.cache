@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kF6nWfWQqjkBqS+6K8YkaqGEsrbbiUGrZ0k8G+FdiSyZrJdarpPD5WCx4NO+lL14gD/KJGBoPFhfm9/+FUqm/A==",
+  "dgSpecHash": "yG1TUDISGycjlm0xytXtONZ47w7pHDHXD665R/uPzCoXpr28o4AuR2mIDENFjFk1mqoMJ8fjFMQb39qOlP6BjQ==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\PersonalProjects\\MobileAppChallenge\\MobileAppChallenge\\MobileAppChallenge.Android\\MobileAppChallenge.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\monkeycache\\1.5.0-beta\\monkeycache.1.5.0-beta.nupkg.sha512",
+    "C:\\Users\\itsal\\.nuget\\packages\\monkeycache.filestore\\1.5.0-beta\\monkeycache.filestore.1.5.0-beta.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\itsal\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
